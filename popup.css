@@ -35,3 +35,38 @@
     /* background-color: green; */
     color: white;
 }
+
+
+
+#navbar{
+    background-color: black;
+    height: 100px;
+}
+#navbar h1{
+    color: white;
+}
+
+
+/* toggle dark mode */
+
+.dark-mode {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    background-color: #100c08;
+}
+.text{
+    width: fit-content;
+}
+.bt{
+    border-radius: 10%;
+    text-decoration: wavy;
+    padding: 3px;
+    height: 40px;
+    width: 60px;
+
+}
